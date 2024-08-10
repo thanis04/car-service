@@ -14,8 +14,7 @@ export class HomeComponent {
 
   constructor(private router: Router) {}
 
-  toDashboard(event: Event) {
-    event.preventDefault();
-    this.router.navigate(['/home/dashboard']);
+  btnDashboard() {
+    this.router.navigateByUrl('/home/dashboard');
   }
 }
