@@ -1,0 +1,16 @@
+{
+    "car": {
+      "title": "Car",
+      "add": "Add Car"
+    },
+    "job": {
+      "title": "Job",
+      "add": "Add Job"
+    },
+    "statistic": {
+      "title": "Statistic"
+    },
+    "dashboard": {
+      "title": "Dashboard"
+    }
+  }

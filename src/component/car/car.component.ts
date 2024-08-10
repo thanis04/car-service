@@ -8,5 +8,10 @@ import { Component } from '@angular/core';
   styleUrl: './car.component.css'
 })
 export class CarComponent {
+carForm: any;
+addCar() {
+throw new Error('Method not implemented.');
+}
+carName: any;
 
 }
