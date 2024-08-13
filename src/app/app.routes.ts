@@ -8,13 +8,17 @@ import { StatisComponent } from '../component/statis/statis.component';
 export const routes: Routes = [
     {path: '', redirectTo: 'home', pathMatch: 'full'},
     {path: 'home', component: HomeComponent, 
-        children: [
-            {path: 'dashboard', component: DashboardComponent},
-            {path: 'cars', component: CarComponent},
-            {path: 'jobs', component: JobComponent},
-            {path: 'statis', component: StatisComponent}
-        ]
+        // children: [
+        //     {path: 'dashboard', component: DashboardComponent},
+        //     {path: 'cars', component: CarComponent},
+        //     {path: 'jobs', component: JobComponent},
+        //     {path: 'statis', component: StatisComponent}
+        // ]
     },
+    {path: 'home/dashboard', component: DashboardComponent},
+    {path: 'dashboard/cars', component: CarComponent},
+    {path: 'dashboard/jobs', component: JobComponent},
+    {path: 'dashboard/statis', component: StatisComponent},
     {path:'**', redirectTo: 'home/'}
 ];
 
